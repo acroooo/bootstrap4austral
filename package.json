@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap4austral",
+  "version": "1.0.0",
+  "description": "Proyecto para la Universidad Austral -  Bootstrap4",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acroooo/bootstrap4austral.git"
+  },
+  "author": "Hernán Chamorro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acroooo/bootstrap4austral/issues"
+  },
+  "homepage": "https://github.com/acroooo/bootstrap4austral#readme"
+}
