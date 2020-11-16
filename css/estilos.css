@@ -14,6 +14,7 @@ body{
 .btn{
     color: #4E148C;
     margin-bottom: 3vh;
+    border-radius: 0;
 }
 
 footer{
@@ -32,7 +33,7 @@ footer{
 .card{
     background-color: #FDE74C;
     padding-top:3vh;
-    height:25vh;
+    height:40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
