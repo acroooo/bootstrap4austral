@@ -38,3 +38,8 @@ footer{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.barra-nav{
+    background-color: black;
+    color: #FDE74C
+}
