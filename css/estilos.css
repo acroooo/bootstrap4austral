@@ -1,45 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-body{
-    background-color: #FDE74C;
-    color: black;
-    font-family: 'Roboto';
+body {
+  background-color: #fde74c;
+  color: black;
+  font-family: "Roboto";
 }
 
-.jumbotron{
-    color: #A4DEF9;
-    background-color: #4E148C;
+.jumbotron {
+  color: #a4def9;
+  background-color: #4e148c;
 }
 
-.btn{
-    color: #4E148C;
-    margin-bottom: 3vh;
-    border-radius: 0;
+.btn {
+  color: #4e148c;
+  margin-bottom: 3vh;
+  border-radius: 0;
 }
 
-footer{
-    background-color: #4E148C;
-    color: #A4DEF9
+footer {
+  background-color: #4e148c;
+  color: #a4def9;
 }
 
-.link-footer{
-    color: #FDE74C;
+.link-footer {
+  color: #fde74c;
 }
 
-.boton-servicio{
-    width:100%;
+.boton-servicio {
+  width: 100%;
 }
 
-.card{
-    background-color: #FDE74C;
-    padding-top:3vh;
-    height:40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.card {
+  background-color: #fde74c;
+  padding-top: 3vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.barra-nav{
-    background-color: black;
-    color: #FDE74C
+.barra-nav {
+  background-color: black;
+  color: #fde74c;
+}
+
+/*breadcrumb*/
+
+.breadcrumb {
+  background-color: #e6c229;
+}
+
+.breadcrumb-item.active {
+  color: black;
+}
+
+a {
+  color: #d1452c;
 }
