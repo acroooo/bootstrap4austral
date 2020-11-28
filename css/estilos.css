@@ -28,6 +28,7 @@ footer {
 
 .boton-servicio {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .card {
