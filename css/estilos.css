@@ -34,7 +34,7 @@ footer {
 .card {
   background-color: #fde74c;
   padding-top: 3vh;
-  height: 40vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -57,4 +57,15 @@ footer {
 
 a {
   color: #d1452c;
+}
+
+.img-source {
+  object-fit: contain;
+  width: 300px;
+  margin-right: 250px;
+}
+
+.card-img-top {
+  width: 10vh;
+  margin-left: 15px;
 }

@@ -30,10 +30,15 @@
             </ul>
         </div>
     </nav>
-    <div class="jumbotron rounded-0 mt-5">
-        <h1 class="display-4 font-italic font-weight-bold">VirtualBank</h1>
-        <p class="lead font-weight-bold">Cada servicio está pensado para tu comodidad, para que puedas despegar sin pensar en el riesgo.</p>
-        <hr class="my-4">
+        <div class="jumbotron rounded-0 mt-5 d-flex justify-content-center flex-wrap">
+      <div>
+        <img class="img-source" src="/img/tarjetacredito.png" alt="" />
+      </div>
+      <div>
+      <h1 class="display-4 font-italic font-weight-bold">VirtualBank</h1>
+      <p class="lead font-weight-bold">Cada servicio está pensado para tu comodidad, para que puedas despegar sin pensar en el riesgo.</p>
+      <hr class="my-4">
+      </div>
     </div>
     <div class="container">
                     <nav aria-label="breadcrumb">
@@ -43,8 +48,11 @@
                         </ol>
                     </nav>
         <h2 class="d-flex justify-content-center font-weight-bold mt-5">SERVICIOS</h2>
+      <div class="container-fluid mb-5">
+        <h2 class="d-flex justify-content-center font-weight-bold mt-5">SERVICIOS</h2>
         <div class="d-flex flex-wrap justify-content-center">
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/telefonos-inteligentes.png" alt="Card image cap">
                 <div class="card-body">
                 <h4 class="font-italic card-title">Aplicación Mobile</h4>
                 <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
@@ -54,7 +62,8 @@
                 </div>
                 <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
                        </div>
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+            <img class="card-img-top" src="./img/prueba.png" alt="Card image cap">
                     <div class="card-body">
                 <h4 class="font-italic card-title">Préstamos</h4>
                 <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
@@ -63,7 +72,8 @@
                 </div>
                 <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
             </div>
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/manzana.png" alt="Card image cap">
                                 <div class="card-body">
                 <h4 class="font-italic card-title">WorldWide</h4>
                 <h6 class="card-subtitle text-muted">Internacional</h6>
@@ -73,7 +83,8 @@
                 </div>
                 <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
             </div>
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/charla.png" alt="Card image cap">              
                                 <div class="card-body">
                 <h4 class="font-italic card-title">Beneficios PYMES</h4>
                 <h6 class="card-subtitle text-muted">Nacional</h6>
@@ -83,7 +94,8 @@
                 </div>
                 <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
             </div>
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/dolar.png" alt="Card image cap">              
                                 <div class="card-body">
                 <h4 class="font-italic card-title">Tarjeta Digital</h4>
                 <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
@@ -93,7 +105,8 @@
                 </div>            
             <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
             </div>
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/lapiz.png" alt="Card image cap">
                 <div class="card-body">
                 <h4 class="font-italic card-title">Estudiantes</h4>
                 <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
@@ -102,8 +115,25 @@
 
                 </div>
                 <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
-                        </div>
+              </div>
         </div>
+            <h4 class="col-md-12 mb-4 d-flex justify-content-center">Suscribíte para recibir más noticias!</h4>
+            <form class="col-md-12 form-row justify-content-center">
+              <div class="form-group">
+                <input class="form-control" type="email" placeholder="Ej: email@bancovirtual.com">
+              </div>
+                <div class="form-group ml-3 mr-3">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                     <option>Argentina</option>
+                      <option>Venezuela</option>
+                      <option>Colombia</option>
+                      <option>Chile</option>
+                      <option>Brasil</option>
+                 </select>
+             </div>
+            <button type="submit" class="btn btn-outline-warning">Suscribirme!</button>
+            </form>
+          </div>
     </div>
     <!-- Productos / Servicios -->
     <!-- Título, descripción y botón -->
