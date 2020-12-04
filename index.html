@@ -50,6 +50,19 @@
           <li class="breadcrumb-item active" aria-current="page">Inicio</li>
         </ol>
       </nav>
+              <div id="carouselExampleSlidesOnly" class=" d-flex justify-content-center carousel slide" data-ride="carousel">
+  <div class="carousel-inner d-flex justify-content-center">
+    <div class="carousel-item active ">
+      <img class="d-block" src="./img/tarjetacredito.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block" src="./img/tarjetacredito.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block" src="./img/tarjetacredito.png" alt="Third slide">
+    </div>
+  </div>
+</div>
       <h2 class="d-flex justify-content-center font-weight-bold">CARACTERÍSTICAS</h2>
       <div class="row d-flex justify-content-center mt-5 mb-5">
         <div class="col-xl-4 px-5">
@@ -82,13 +95,13 @@
             <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
                 <img class="card-img-top" src="./img/telefonos-inteligentes.png" alt="Card image cap">
                 <div class="card-body">
-                <h4 class="font-italic card-title">Aplicación Mobile</h4>
+                <h4 class="font-italic card-title" data-toggle="tooltip" data-placement="top" title="Descargalo por la App Store!">Aplicación Mobile</h4>
                 <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
                 <p class="card-text">Conectate con tu dispositivo desde cualquier parte y disfruta de los miles de beneficios que
                     ofrecemos.</p>
  
                 </div>
-                <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
+                <button type="button" class="btn btn-warning font-weight-bold boton-servicio" data-toggle="popover" title="Aplicacion Mobile" data-content="Descargalo para iOS / Android"><span class="oi oi-plus mr-2"></span>Ver más</button>
                        </div>
             <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
             <img class="card-img-top" src="./img/prueba.png" alt="Card image cap">
@@ -257,6 +270,17 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+  $(function () {
+  $('[data-toggle="popover"]').popover('show')
+})
+</script>
+
+    <script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
 
   </body>
 </html>
