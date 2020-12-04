@@ -1,35 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 body {
   background-color: #fde74c;
   color: black;
-  font-family: "Roboto";
-}
+  font-family: "Roboto"; }
 
 .jumbotron {
   color: #a4def9;
-  background-color: #4e148c;
-}
+  background-color: #4e148c; }
 
 .btn {
   color: #4e148c;
   margin-bottom: 3vh;
-  border-radius: 0;
-}
+  border-radius: 0; }
 
 footer {
   background-color: #4e148c;
-  color: #a4def9;
-}
+  color: #a4def9; }
 
 .link-footer {
-  color: #fde74c;
-}
+  color: #fde74c; }
 
 .boton-servicio {
   width: 100%;
-  vertical-align: bottom;
-}
+  vertical-align: bottom; }
 
 .card {
   background-color: #fde74c;
@@ -37,35 +29,27 @@ footer {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .barra-nav {
   background-color: black;
-  color: #fde74c;
-}
+  color: #fde74c; }
 
 /*breadcrumb*/
-
 .breadcrumb {
-  background-color: #e6c229;
-}
+  background-color: #fde74c; }
 
 .breadcrumb-item.active {
-  color: black;
-}
+  color: black; }
 
 a {
-  color: #d1452c;
-}
+  color: #d1452c; }
 
 .img-source {
   object-fit: contain;
   width: 300px;
-  margin-right: 250px;
-}
+  margin-right: 250px; }
 
 .card-img-top {
   width: 10vh;
-  margin-left: 15px;
-}
+  margin-left: 15px; }

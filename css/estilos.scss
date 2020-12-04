@@ -1,0 +1,79 @@
+$yellow: #fde74c;
+$orange: #d1452c;
+$blue: #a4def9;
+$violet: #4e148c;
+
+@mixin margenes($top, $bottom) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+
+body {
+  background-color: $yellow;
+  color: black;
+  font-family: "Roboto";
+}
+
+.jumbotron {
+  color: $blue;
+  background-color: $violet;
+}
+
+.btn {
+  color: $violet;
+  margin-bottom: 3vh;
+  border-radius: 0;
+}
+
+footer {
+  background-color: $violet;
+  color: $blue;
+}
+
+.link-footer {
+  color: $yellow;
+}
+
+.boton-servicio {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.card {
+  background-color: $yellow;
+  padding-top: 3vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.barra-nav {
+  background-color: black;
+  color: $yellow;
+}
+
+/*breadcrumb*/
+
+.breadcrumb {
+  background-color: $yellow;
+}
+
+.breadcrumb-item.active {
+  color: black;
+}
+
+a {
+  color: $orange;
+}
+
+.img-source {
+  object-fit: contain;
+  width: 300px;
+  margin-right: 250px;
+}
+
+.card-img-top {
+  width: 10vh;
+  margin-left: 15px;
+}
