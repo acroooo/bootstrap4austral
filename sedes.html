@@ -45,9 +45,20 @@
               </ol>
             </nav>
       <h2 class="d-flex justify-content-center font-weight-bold">SEDES BANCARIAS</h2>
-      <div class="row d-flex justify-content-center mt-5 mb-5">
-        <div class="col-xl-12 px-5 table-responsive">
-         <table class="table table-striped">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="sedes-tab" href="#sedes" data-toggle="tab" role="tab" aria-controls="sedes" aria-selected="true">Sedes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="servicios-tab" href="#servicios" data-toggle="tab" role="tab" aria-controls="servicios" aria-selected="false">Servicios</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="oficinas-tab" href="#oficinas" data-toggle="tab" role="tab" aria-controls="oficinas" aria-selected="false">Oficinas</a>
+  </li>
+</ul>
+<div class="tab-content row d-flex justify-content-center mt-5 mb-5 " id="myTabContent">
+  <div class="col-xl-12 px-5 table-responsive tab-pane fade show active" id="sedes" role="tabpanel" aria-labelledby="sedes-tab">
+    <table class="table table-striped">
              <thead class="thead-dark">
                 <th>Sede</th>
                 <th>Dirección</th>
@@ -72,6 +83,87 @@
                     <td><span class="oi oi-signpost mr-2"></span>Tucumán y Scalabrini Ortiz</td>
                     <td>C.A.B.A.</td>
                     <td><span class="oi oi-phone mr-2"></span>+54 9 11 11111922</td>
+                </tr>
+             </tbody>
+         </table>
+  </div>
+  <div class="tab-pane fade" id="servicios" role="tabpanel" aria-labelledby="servicios-tab">
+    <table class="table table-striped">
+             <thead class="thead-dark">
+                <th>Sede</th>
+                <th>Prestamos</th>
+                <th>Aplicación Mobile</th>
+                <th>Worldwide</th>
+                <th>Beneficios Pymes</th>
+                <th>Tarjeta Digital</th>
+                <th>Estudiantes</th>
+
+             </thead>
+             <tbody>
+                <tr>
+                    <td>Pergamino</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>Centro</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>Tucumán</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Si</td>
+                </tr>
+             </tbody>
+         </table>
+  </div>
+  <div class="tab-pane fade" id="oficinas" role="tabpanel" aria-labelledby="oficinas-tab">
+    <table class="table table-striped">
+             <thead class="thead-dark">
+                <th>Sede</th>
+                <th>Administrativo</th>
+                <th>General</th>
+                <th>Reclamos</th>
+                <th>Transacciones</th>
+                <th>Empresas</th>
+             </thead>
+             <tbody>
+                <tr>
+                    <td>Pergamino</td>
+                    <th>Si</th>
+                    <th>No</th>
+                    <th>Si</th>
+                    <th>No</th>
+                    <th>Si</th>
+                </tr>
+                <tr>
+                    <td>Centro</td>
+                    <th>Si</th>
+                    <th>Si</th>
+                    <th>Si</th>
+                    <th>Si</th>
+                    <th>Si</th>
+                </tr>
+                <tr>
+                    <td>Tucumán</td>
+                    <th>Si</th>
+                    <th>Si</th>
+                    <th>No</th>
+                    <th>Si</th>
+                    <th>Si</th>
                 </tr>
              </tbody>
          </table>
