@@ -20,21 +20,28 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a class="nav-link" href="#" class="nav-link link-footer"></a></li>
           <li class="nav-item"><a class="nav-link" href="nosotros.html" class="nav-link link-footer">Nosotros</a></li>
           <li class="nav-item"><a class="nav-link" href="servicios.html" class="nav-link link-footer">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="sedes.html" class="nav-link link-footer">Sedes</a></li>
           <li class="nav-item"><a class="nav-link" href="contacto.html" class="nav-link link-footer">Contacto</a></li>
         </ul>
       </div>
     </nav>
-    <div class="jumbotron rounded-0 mt-5">
+    <div class="jumbotron rounded-0 mt-5 d-flex justify-content-center flex-wrap">
+      <div>
+        <img class="img-source" src="/img/tarjetacredito.png" alt="" />
+      </div>
+      <div>
       <h1 class="display-4 font-italic font-weight-bold">VirtualBank</h1>
       <p class="lead font-weight-bold">Bienvenidx!, nuestra red se extiende por latinoamérica y el mundo con el interés de mejorar la utilización de la tecnología en la banca móvil.</p>
       <hr class="my-4">
       <p>¿Estás listo para despegar?</p>
       <p class="lead">
-        <a class="btn btn-warning btn-lg font-weight-bold" href="nosotros.html" role="button">Conocénos!</a>
+        <button class="btn btn-warning btn-lg font-weight-bold" href="nosotros.html" role="button">Conocénos!</button>
+        <button class="btn btn-warning btn-lg font-weight-bold" data-toggle="modal" data-target="#exampleModal" role="button">Contactar al Desarrollador</button>
+        <button class="btn btn-warning btn-lg font-weight-bold" data-toggle="modal" data-target="#contacto" role="button">Contacta a la empresa</button>
       </p>
+      </div>
     </div>
     
     <div class="container">
@@ -43,6 +50,19 @@
           <li class="breadcrumb-item active" aria-current="page">Inicio</li>
         </ol>
       </nav>
+              <div id="carouselExampleSlidesOnly" class=" d-flex justify-content-center carousel slide" data-ride="carousel">
+  <div class="carousel-inner d-flex justify-content-center">
+    <div class="carousel-item active ">
+      <img class="d-block" src="./img/tarjetacredito.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block" src="./img/tarjetacredito.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block" src="./img/tarjetacredito.png" alt="Third slide">
+    </div>
+  </div>
+</div>
       <h2 class="d-flex justify-content-center font-weight-bold">CARACTERÍSTICAS</h2>
       <div class="row d-flex justify-content-center mt-5 mb-5">
         <div class="col-xl-4 px-5">
@@ -72,39 +92,148 @@
       <div class="container-fluid mb-5">
         <h2 class="d-flex justify-content-center font-weight-bold mt-5">SERVICIOS</h2>
         <div class="d-flex flex-wrap justify-content-center">
-          <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
-            <h4 class="font-italic">Aplicación Mobile</h4>
-            <p>Conectate con tu dispositivo desde cualquier parte y disfruta de los miles de beneficios que ofrecemos.</p>
-            <button type="button" class="btn btn-warning font-weight-bold boton-servicio">Ver más</button>
-          </div>
-          <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
-  
-            <h4 class="font-italic">Préstamos</h4>
-            <p>¿Buscás construir tu primera casa?, ¿Emprender un negocio?, ¿Estudiar una carrera?. Vos relaja, nosotros tramitamos por vos para que en segundos tengas el efectivo en tu cuenta.</p>
-            <button type="button" class="btn btn-warning font-weight-bold boton-servicio">Ver más</button>
-          </div>
-          <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
-            <h4 class="font-italic">WorldWide</h4>
-            <p>Nuestro servicio te permite cobrar trabajos en el exterior sin necesidad de abonar ningún impuesto ni pago por la utilización del servicio, un simple click y listo!</p>
-            <button type="button" class="btn btn-warning font-weight-bold boton-servicio">Ver más</button>
-          </div>
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
-              <h4 class="font-italic">Beneficios PYMES</h4>
-              <p>¿Sos un PYME?, accedé a préstamos especiales para tus materiales, pago a empleados, desarrollo de tecnología y más.</p>
-              <button type="button" class="btn btn-warning font-weight-bold boton-servicio">Ver más</button>
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/telefonos-inteligentes.png" alt="Card image cap">
+                <div class="card-body">
+                <h4 class="font-italic card-title" data-toggle="tooltip" data-placement="top" title="Descargalo por la App Store!">Aplicación Mobile</h4>
+                <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
+                <p class="card-text">Conectate con tu dispositivo desde cualquier parte y disfruta de los miles de beneficios que
+                    ofrecemos.</p>
+ 
+                </div>
+                <button type="button" class="btn btn-warning font-weight-bold boton-servicio" data-toggle="popover" title="Aplicacion Mobile" data-content="Descargalo para iOS / Android"><span class="oi oi-plus mr-2"></span>Ver más</button>
+                       </div>
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+            <img class="card-img-top" src="./img/prueba.png" alt="Card image cap">
+                    <div class="card-body">
+                <h4 class="font-italic card-title">Préstamos</h4>
+                <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
+                <p class="card-text">¿Buscás construir tu primera casa?, ¿Emprender un negocio?, ¿Estudiar una carrera?. Vos relaja,
+                    nosotros tramitamos por vos para que en segundos tengas el efectivo en tu cuenta.</p>
+                </div>
+                <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
             </div>
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
-              <h4 class="font-italic">Tarjeta Digital</h4>
-              <p>No ocupes más lugar en tu billetera, ni búsques tu tarjeta por todos lados. Vinimos para quedarnos y que puedas tener todo tu dinero centralizado, sin necesidad de conectarte.</p>
-              <button type="button" class="btn btn-warning font-weight-bold boton-servicio">Ver más</button>
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/manzana.png" alt="Card image cap">
+                                <div class="card-body">
+                <h4 class="font-italic card-title">WorldWide</h4>
+                <h6 class="card-subtitle text-muted">Internacional</h6>
+                <p class="card-text">Nuestro servicio te permite cobrar trabajos en el exterior sin necesidad de abonar ningún impuesto ni
+                    pago por la utilización del servicio, un simple click y listo!</p>
+
+                </div>
+                <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
             </div>
-            <div class="col-md-3 mt-5 mb-5 mr-2 ml-2 card">
-              <h4 class="font-italic">Estudiantes</h4>
-              <p>Poseemos planes para estudiantes de Argentina y el exterior. Accedé a beneficios únicos para tu carrera o profesión.</p>
-              <button type="button" class="btn btn-warning font-weight-bold boton-servicio">Ver más</button>
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/charla.png" alt="Card image cap">              
+                                <div class="card-body">
+                <h4 class="font-italic card-title">Beneficios PYMES</h4>
+                <h6 class="card-subtitle text-muted">Nacional</h6>
+                <p class="card-text">¿Sos un PYME?, accedé a préstamos especiales para tus materiales, pago a empleados, desarrollo de
+                    tecnología y más.</p>
+
+                </div>
+                <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
             </div>
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/dolar.png" alt="Card image cap">              
+                                <div class="card-body">
+                <h4 class="font-italic card-title">Tarjeta Digital</h4>
+                <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
+                <p class="card-text">No ocupes más lugar en tu billetera, ni búsques tu tarjeta por todos lados. Vinimos para quedarnos y
+                    que puedas tener todo tu dinero centralizado, sin necesidad de conectarte.</p>
+
+                </div>            
+            <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
+            </div>
+            <div class="col-md-4 mt-5 mb-5 mr-2 ml-2 card">
+                <img class="card-img-top" src="./img/lapiz.png" alt="Card image cap">
+                <div class="card-body">
+                <h4 class="font-italic card-title">Estudiantes</h4>
+                <h6 class="card-subtitle text-muted">Nacional e Internacional</h6>
+                <p class="card-text">Poseemos planes para estudiantes de Argentina y el exterior. Accedé a beneficios únicos para tu
+                    carrera o profesión.</p>
+
+                </div>
+                <button type="button" class="btn btn-warning font-weight-bold boton-servicio"><span class="oi oi-plus mr-2"></span>Ver más</button>
+              </div>
+        </div>
+            <h4 class="col-md-12 mb-4 d-flex justify-content-center">Suscribíte para recibir más noticias!</h4>
+            <form class="col-md-12 form-row justify-content-center">
+              <div class="form-group">
+                <input class="form-control" type="email" placeholder="Ej: email@bancovirtual.com">
+              </div>
+                <div class="form-group ml-3 mr-3">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                     <option>Argentina</option>
+                      <option>Venezuela</option>
+                      <option>Colombia</option>
+                      <option>Chile</option>
+                      <option>Brasil</option>
+                 </select>
+             </div>
+            <button type="submit" class="btn btn-outline-warning">Suscribirme!</button>
+            </form>
           </div>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tomemos un Café!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Si tenés un proyecto o te gustó este y otros de mis desarrollos y querés entrevistarme no dudes en contactarme en la sección "Contacto" o por mi email:<br/> hernang.work@gmail.com<br/>Si querés conocer más sobre mis codificaciones nocturnas ingresa a mi github: <br/>github.com/acroooo
+      </div>
+    </div>
+  </div>
+</div>
+ <div class="modal fade" id="contacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contacto">Contactate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label class="mt-3" for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" />
+                </div>
+                 <div class="form-group col-sm-6">
+                    <label class="mt-3" for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido" />
+                </div>
+                <div class="form-group col-sm-12">
+                    <label class="mt-3" for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ejemplo: mail@virtualbank.com" />
+                </div>
+                <div class="form-group col-sm-12">
+                    <label class="mt-3" for="textarea">Mensaje</label>
+                    <textarea type="text" class="form-control" id="textarea" rows="8" placeholder="Alientos, dudas, preguntas, mejoras, o proyectos para realizar juntos!"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" />
+                        <label class="form-check-label" for="gridCheck">
+                            Hire me!
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-outline-warning">Enviar</button>
+        </form>  
+      </div>
+    </div>
+  </div>
+</div>
       <footer>
         <div class="d-flex flex-wrap p-5 justify-content-center">
           <div class="col-md-3 mb-5">
@@ -141,6 +270,17 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+  $(function () {
+  $('[data-toggle="popover"]').popover('show')
+})
+</script>
+
+    <script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
 
   </body>
 </html>
